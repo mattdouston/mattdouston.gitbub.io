@@ -1,0 +1,80 @@
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 350px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(7, 103, 199);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 8px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: ghostwhite;
+  display: block;
+}
+.sidenav a:hover {
+  color: coral;
+}
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+.mugshot {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 6px solid coral;
+}
+.links {
+  text-align: left;
+  margin: 0 auto;
+}
+.main {
+  margin-left: 450px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+html, body {
+  margin: 0px;
+  height: 100%;
+  font-family: Nunito, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  background-color: ghostwhite;
+}
+.firstname {
+  font-size: 50px;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+}
+.lastname {
+  font-size: 50px;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  color: rgb(7, 103, 199);
+}
+.landing {
+    height: 100vh;
+    display:table-cell;
+    vertical-align:middle;
+}
+.seeking {
+  color: coral;
+  font-weight: bold;
+}
+.samples a {
+  text-decoration: none;
+  display: inline;
+  color: rgb(7, 103, 199);
+}
+.samples a:hover {
+  color: coral;
+}
