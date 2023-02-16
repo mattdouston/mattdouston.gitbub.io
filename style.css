@@ -37,6 +37,22 @@
 .links {
   text-align: left;
   margin: 0 auto;
+  padding-top: 15px;
+}
+.links-mobile {
+  padding-right: 10px; 
+  padding-left: 10px;
+  display: none;
+}
+.links-mobile a {
+  padding: 8px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(7, 103, 199);
+  display: block;
+}
+.links-mobile a:hover {
+  color: coral;
 }
 .main {
   margin-left: 450px;
@@ -53,11 +69,11 @@ html, body {
   background-color: ghostwhite;
 }
 .firstname {
-  font-size: 50px;
+  font-size: 60px;
   font-family: Nunito, Arial, Helvetica, sans-serif;
 }
 .lastname {
-  font-size: 50px;
+  font-size: 60px;
   font-family: Nunito, Arial, Helvetica, sans-serif;
   color: rgb(7, 103, 199);
 }
@@ -77,4 +93,19 @@ html, body {
 }
 .samples a:hover {
   color: coral;
+}
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .change-margin-mobile {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .show-mobile {
+    display: contents;
+  }
 }

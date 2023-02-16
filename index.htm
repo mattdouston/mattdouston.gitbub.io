@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="images/x-icon" href="images/mattdouston.jpg">
   <link rel="stylesheet" href="style.css">
+
+  <!-- For responsive layout -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +24,7 @@
 </head>
 <body>
 
-<div class="sidenav">
+<div class="sidenav hidden-mobile">
   <div class="vertical-center">
     <img class="mugshot" src="images/mattdouston.jpg" alt="Matt Douston" width="200px" height="200px"> 
 
@@ -45,7 +48,7 @@
   </div>
 </div>
 
-<div class="main" id="about">
+<div class="main change-margin-mobile" id="about">
   <div class="landing">
     <h1> <span class="firstname">Matt </span><span class="lastname">Douston<span></h1>
     <p>I'm an English and CompSci double major with a decade's experience working with developers and operations teams.</p> 
@@ -75,6 +78,20 @@
     </div>
     
     <p>Feel free to contact me if you know of a project I could help with!</p>
+
+    <table class="links-mobile show-mobile">
+      <tr>
+        <td><a href="https://www.linkedin.com/in/matthewdouston/">
+          <span class="fa fa-linkedin-square" style="font-size:40px;color:rgb(7, 103, 199)"></span></a></td>
+        <td><a href="https://www.linkedin.com/in/matthewdouston/">LinkedIn</a></td>
+        <td><a href="mailto:matthewdouston@gmail.com">
+          <span class="fa fa-envelope" style="font-size:40px;color:rgb(7, 103, 199)"></span></a></td>
+        <td><a href="mailto:matthewdouston@gmail.com">Email</a></td>
+        <td><a href="files/MatthewDouston2023.pdf">
+          <span class="fa fa-file-o" style="font-size:40px;color:rgb(7, 103, 199)"></span></a></td>
+        <td><a href="files/MatthewDouston2023.pdf">Resume</a></td>
+      </tr>
+    </table>
 
   </div>
 </div>
