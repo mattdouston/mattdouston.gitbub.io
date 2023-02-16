@@ -101,7 +101,8 @@ html, body {
 }
 @media (max-width: 767px) {
   .change-margin-mobile {
-    margin-left: 50px;
+    margin-left: 10px;
+	width: 95%;
   }
 }
 @media (max-width: 767px) {
