@@ -56,6 +56,7 @@
 }
 .main {
   margin-left: 450px;
+  margin-right: 50px;
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -64,17 +65,17 @@
 html, body {
   margin: 0px;
   height: 100%;
-  font-family: Nunito, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 17px;
   background-color: ghostwhite;
 }
 .firstname {
   font-size: 60px;
-  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-family: 'Golos Text', Arial, Helvetica, sans-serif;
 }
 .lastname {
   font-size: 60px;
-  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-family: 'Golos Text', Arial, Helvetica, sans-serif;
   color: rgb(7, 103, 199);
 }
 .landing {
@@ -82,9 +83,17 @@ html, body {
     display:table-cell;
     vertical-align:middle;
 }
+.table-list {
+  margin-left: 30px;
+  border-spacing: 0px;
+}
+.tabe-list th, td {
+  padding-left: 10px;
+}
 .seeking {
-  color: coral;
-  font-weight: bold;
+  color: rgb(245, 110, 61);
+  font-family: 'Golos Text', Arial, Helvetica, sans-serif;
+  font-weight: bolder;
 }
 .samples a {
   text-decoration: none;
