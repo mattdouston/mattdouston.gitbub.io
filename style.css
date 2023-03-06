@@ -8,6 +8,7 @@
   background-color: rgb(7, 103, 199);
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
+  font-family: 'Golos Text', Arial, Helvetica, sans-serif;
 }
 .sidenav a {
   padding: 8px 8px 6px 16px;
@@ -65,9 +66,10 @@
 html, body {
   margin: 0px;
   height: 100%;
-  font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: 'Golos Text', Arial, Helvetica, sans-serif;
   font-size: 17px;
-  background-color: ghostwhite;
+  background-color: white;
 }
 .firstname {
   font-size: 60px;
@@ -90,11 +92,11 @@ html, body {
 .tabe-list th, td {
   padding-left: 10px;
 }
-.seeking {
+/* .seeking {
   color: rgb(245, 110, 61);
   font-family: 'Golos Text', Arial, Helvetica, sans-serif;
   font-weight: bolder;
-}
+} */
 .samples a {
   text-decoration: none;
   display: inline;
